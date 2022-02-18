@@ -1,0 +1,134 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.header{
+    width: 100%; 
+    padding: 20px 0px;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    height: 70px;
+    }
+.container{
+    width: 1140px;
+    margin:auto;
+}
+.header-tog{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #f0f0f0;
+}
+.menu ul{
+    display:inline-block;
+    margin-left: 32px;
+    
+}
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 16px;
+    
+}
+.menu ul li a{
+    
+    text-decoration: none;
+    font-size: 16px;
+    color: #292640;
+    font-weight: 400;
+    font-family:'Roboto', sans-serif;
+
+}
+.menu ul li a:hover{
+    
+    text-decoration: none;
+    font-size: 16px;
+    color:	rgb(0, 128, 255); 
+    font-weight: 600;
+    font-family:'Roboto', sans-serif;
+    transition: 0.5s;
+    cursor: pointer;
+    border-bottom: 1px solid 	rgb(0, 128, 255);
+}
+.banner
+{
+text-align: center;
+font-family:'Roboto', sans-serif;
+}
+
+#first-h1{
+color: #292640;
+}
+#second-h1{
+    color:	rgb(0, 128, 255);
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+.banner-info
+{
+    margin-top: 45px;
+    margin-bottom: 28px;
+    font-size: 23px;
+}
+.banner-info p{
+    color: #292640;
+    font-size: 16px;
+    line-height: 1.3;
+    font-weight: 400;
+    margin-bottom: 22px;
+}
+.banner-img img{
+margin-top: 20px;
+}
+.more-info
+{
+    text-align: center;
+}
+.more-info-tog{
+    display:flex;
+    font-family:'Roboto', sans-serif;
+    
+    
+    
+}
+.more-info-l, .more-info-r{
+    flex-basis: 50%;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+.more-info-r h1{
+    text-align: left;
+    font-size: 48px;
+    color: #292640;
+    
+}
+.more-info-l {
+    text-align: right;
+}
+.more-info-l h1{
+    color: 	rgb(253, 68, 114);
+    font-size: 48px;
+    padding-bottom: 12px;
+}
+.more-info-l p{
+    line-height: 1.3;
+    color: #292640;
+    font-size: 16px;
+}
+.p-tog{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+.footer{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(0, 128, 255);
+    color: rgb(235, 235, 235); 
+    text-align: center;
+    line-height: 80px;
+    font-size:12px;
+}
